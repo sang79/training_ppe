@@ -7,7 +7,7 @@ export default class ForgotPassword extends Component {
                 <section className="">
                     <img className=" p-6 ml-3" src="/../images/forgot_password.jpg" />
                 </section>
-                <section className="bg-white max-w-md absolute absolute-y absolute-x">
+                <form className="bg-white max-w-md absolute absolute-y absolute-x">
                     <h1 className="font-bold text-4xl w-screen ">Forgot your password</h1>
                     <div className="mt-4">
                         <label className="block text-grey-darker text-md mb-1" for="email">Email</label>
@@ -27,7 +27,7 @@ export default class ForgotPassword extends Component {
                     </div>
                     <button className="w-full my-4 btn font-bold mb-4">Reset Password</button>
                     <button className="w-full btn opacity-50">back to signIn</button>
-                </section>
+                </form>
             </div>
         )
     }
