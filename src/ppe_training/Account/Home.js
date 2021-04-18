@@ -16,7 +16,7 @@ import '/hoc/my-app/src/assets/css/dist/tailwind.css';
                             {/* ỏe đây có thể sử dụng a, nhưng mỗi lần click vào thì nó đều load lại trang trong khi react đã cung cấp routr, cho việc chuyển mà ko phải reload lại trang tiện hơn nhiều, ban đầu nó chưa hiểu, nhưng h để ý mới thấy */}
                         </li>
                         <li className="mx-3">
-                            <Link to="/">Contact Us</Link>
+                            <Link to="/createpost">Posts</Link>
                         </li>
                         <li className="mx-3">
                             <Link to="#">About Us</Link>
